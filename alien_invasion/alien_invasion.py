@@ -7,6 +7,7 @@ import game_functions as gf
 from pygame.sprite import Group
 
 
+
 def run_game():
     pygame.init()
     ai_settings = Settings()
