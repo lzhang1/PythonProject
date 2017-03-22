@@ -4,6 +4,7 @@ class Settings():
     def __init__(self):
         self.screen_width = 800
         self.screen_height = 600
+
         self.bg_image = pygame.image.load('images/space.jpg')
         self.bullet_speed_factor = 16
         self.bullet_width = 15
@@ -19,3 +20,5 @@ class Settings():
 
         self.ship_speed_factor = 8
         self.ship_limit = 3
+
+
